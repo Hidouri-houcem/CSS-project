@@ -1,0 +1,340 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #191919;
+    color: #fff;
+}
+header{
+    padding-top: 10px;
+}
+
+
+.navigation{
+    background-color: black;
+    padding: 20px;
+    margin-top: -10px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.navigation span{
+    color: #db1702;
+}
+.navigation .logo{
+    display: inline;
+    padding-right: 55%;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation ul{
+    display: inline;
+}
+.navigation li{
+    padding-right: 10px;
+    display: inline;
+    font-size: 1.1em;
+    font-weight: 500;
+    transition: transform 0.3s;
+}
+.navigation li a:hover{
+    
+    color: #db1702;
+}
+
+.navigation a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.home{
+    background-image: url(./images/mohammad-rahmani-aZEBwDrdcSs-unsplash.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align:left;
+    
+}
+
+.home h1{
+    font-size: 3.4rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.home h2{
+    color: #db1702;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+.home h3{
+    font-size: 1.4em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.home button{
+    color: #fff;
+    background-color: #db1702;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding:0.9375em 2.1875em;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 100px;
+    transition: transform 0.3s;
+}
+.home button:hover{
+	background-color: #fe1b00;
+	transform:scale(1.1);
+	cursor: pointer;
+}
+.about{
+    display: flex;
+	justify-content: space-around;
+    width: 100%;
+	padding: 100px;
+}
+
+.about img{
+    width: 400px;
+	margin-top: 80px;
+}
+.about h2{
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+    margin-top: 10rem;
+    width: 2000px;
+    margin-left: -3rem;
+}
+
+.about p{
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top:18rem ;
+    margin-left: -65rem;
+}
+.about span{
+    color: #fe1b00;
+}
+
+.works{
+    width: 100%;
+	padding: 100px;
+}
+.works h2{
+    font-size: 130px;
+    font-weight: 600;
+	text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+.works span{
+    color: #db1702;
+}
+
+.works h3{
+    font-size: 40px;
+    margin:0 auto 6rem auto;
+    border-bottom: 0.2rem solid #fff;
+    display: inline-block;
+}
+.myworks{
+    text-align: center;
+
+}
+
+.myworks a{
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+    color: #fff;
+    height: 200px;
+    transition: transform 1.3s;
+}
+.myworks a:hover{
+    transform: scale(1.2);
+}
+
+
+.myworks img{
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.myworks p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.resume{
+    width: 100%;
+	padding: 100px;
+    text-align: center;
+}
+.resume h2{
+    font-size: 130px;
+    font-weight: 600;
+	text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.resume span{
+    color: #db1702;
+}
+
+.resume video{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.resume p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.resume a {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #db1702;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1.2s ease-in-out;
+}
+
+.resume a:hover {
+    transform: scale(1.2);
+    background-color: #b31200;
+}
+
+.contact{
+	padding: 40px 20px;
+    background-color: #222;
+    border: #b31200 3px solid;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact h2{
+    font-size: 80px;
+    font-weight: 500;
+	text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.contact span{
+    color: #db1702;
+}
+.contact form{
+    display: block;
+    width: 100%;
+}
+
+.contact form label{
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact .name-email{
+    margin-bottom: 20px;
+}
+
+.contact .name-email input{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    border: 1px solid #555;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.contact form textarea{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.contact form button{
+    padding: 12px 25px;
+    background-color: #db1702;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.contact form button:hover{
+    background-color:transparent;
+    border: 2px solid #db1702;
+    color: #db1702;
+}
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+
+
+    text-align: right;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+footer li{
+    margin: 0 15px;
+    display: inline;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+footer a:hover{
+    color: #00bcd4;
+}
